@@ -54,7 +54,7 @@ circle.addEntry({
 });
 ```
 
-The call `start` to start the animation.
+Call the `start()` method to begin the animation.
 
 ```javascript
 circle.start(33); // 33 is the interval(ms) between each update
