@@ -84,7 +84,7 @@ var circle = new ProgressCircle({
 
 circle.addEntry({
     fillColor: 'rgba(255, 255, 0, 0.5)',
-    outlineColor: 'rgba(255, 255, 255, 0.5)' // (Optional)
+    outlineColor: 'rgba(255, 255, 255, 0.5)', // (Optional)
     progressListener: function() {return p1;},
     infoListener: function() {return text1;},// (Optional)
 });
